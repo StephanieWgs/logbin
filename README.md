@@ -4,6 +4,6 @@ Dibuat Oleh:
 - Rosita Darianty (03081220014)
 - 22SI2 Universitas Pelita Harapan
 
-#Cara Menjalankan
+Cara Menjalankan
 
-#Requirement
+Requirement
