@@ -1,0 +1,92 @@
+.txt-h1 {
+  color: #217071;
+}
+
+.wh1 {
+  background-color: #217071;
+}
+
+.txt-h2 {
+  color: #57aa9b;
+}
+
+.wh2 {
+  background-color: #57aa9b;
+}
+
+.txt-h3 {
+  color: #adedd5;
+}
+
+.wh3 {
+  background-color: #adedd5;
+}
+
+.txt-k1 {
+  color: #ffd738;
+}
+
+.wk1 {
+  background-color: #ffd738;
+}
+
+.txt-k2 {
+  color: #ffeb87;
+}
+
+.wk2 {
+  background-color: #ffeb87;
+}
+
+.txt-k3 {
+  color: #fffad7;
+}
+
+.wk3 {
+  background-color: #fffad7;
+}
+
+#moodBar .col {
+  padding: 20px 20px;
+  margin: 10px 5px;
+  display: block;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+#moodBar .col:hover {
+  transform: translateY(-5px);
+  filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.2));
+  transition: all 0.2s ease-out;
+}
+
+#moodBar .col.choose {
+  filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.2));
+}
+
+#moodBar .col:active {
+  transform: translateY(0px);
+}
+
+#moodBar .col:nth-child(1):active {
+  background-color: #FC9802;
+}
+#moodBar .col:nth-child(2):active {
+  background-color: #FECD66;
+}
+#moodBar .col:nth-child(3):active {
+  background-color: #FEF2CC;
+}
+#moodBar .col:nth-child(4):active {
+  background-color: #83C5DD;
+}
+#moodBar .col:nth-child(5):active {
+  background-color: #F67579;
+}
+
+#moodBar .col>* {
+  margin: 0px;
+  pad: 0px;
+  user-select: none;
+  cursor: pointer;
+}
