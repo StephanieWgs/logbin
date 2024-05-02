@@ -22,9 +22,9 @@ Pastikan Anda telah menginstal perangkat lunak berikut sebelum menjalankan logbi
 - Masukkan file logbin.sql untuk di-import
 - Kemudian, tekan import
   
-NOTE:
-Jika phpmyadmin Anda memiliki password, pastikan untuk menambahkan password Anda di file db.php. File db.php berada di c:\xampp\htdocs\logbin\assets\inc\db.php
-$pdo = new PDO('mysql:host=127.0.0.1:3306;dbname=logbin', 'root', 'password Anda');
+#### NOTE:
+- Jika phpmyadmin Anda memiliki password, pastikan untuk menambahkan password Anda di file db.php. File db.php berada di c:\xampp\htdocs\logbin\assets\inc\db.php
+- $pdo = new PDO('mysql:host=127.0.0.1:3306;dbname=logbin', 'root', 'password Anda');
 
 ### Menjalankan Aplikasi Web
 - Pastikan Apache dan MySQL sudah aktif atau menyala
